@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dispatcher/colors.dart';
+import 'package:flutter_svg/svg.dart';
 
 AppBar appBar(BuildContext context) {
   return AppBar(
@@ -21,9 +22,11 @@ AppBar appBar(BuildContext context) {
       Row(
         children: [
           SizedBox(
-            child: Image.asset(
-              'assets/images/logo.png', // Установите высоту
+            child: SvgPicture.asset(
+              'assets/images/logo.svg',
+              color: white, // Установите высоту
               fit: BoxFit.cover,
+              height: MediaQuery.of(context).size.height * 0.06,
             ),
           ),
           const SizedBox(width: 5),

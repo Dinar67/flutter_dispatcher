@@ -2,11 +2,15 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dispatcher/pages/about.dart';
 import 'package:flutter_dispatcher/pages/auth.dart';
+import 'package:flutter_dispatcher/pages/contacts.dart';
+import 'package:flutter_dispatcher/pages/driver.dart';
 import 'package:flutter_dispatcher/pages/main_screen.dart';
 import 'package:flutter_dispatcher/global.dart' as globals;
 import 'package:flutter_dispatcher/pages/profile.dart';
 import 'package:flutter_dispatcher/pages/reg.dart';
+import 'package:flutter_dispatcher/pages/status.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,6 +38,10 @@ void main() async {
       '/auth': (context) => const AuthPage(),
       '/reg': (context) => const RegistrationPage(),
       '/profile': (context) => const ProfilePage(),
+      '/status': (context) => const StatusPage(),
+      '/driver': (context) => const DriverPage(),
+      '/about': (context) => const AboutPage(),
+      '/contacts': (context) => const ContactsPage(),
     },
   ));
 }

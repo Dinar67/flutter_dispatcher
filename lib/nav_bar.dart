@@ -112,28 +112,9 @@ class _NavbarState extends State<Navbar> {
                   })
               : const SizedBox(),
           ListTile(
-            leading: const Icon(
-              Icons.person_2,
-            ),
-            title: const Text("Преподаватели", style: TextStyle(fontSize: 16)),
-            onTap: () {
-              Navigator.pushReplacementNamed(context, '/teacher');
-            },
-          ),
-          ListTile(
-            leading: const Icon(
-              Icons.my_library_books_rounded,
-            ),
+            leading: Icon(Icons.apartment_rounded),
             title: const Text(
-              "Мои занятия",
-              style: TextStyle(fontSize: 16),
-            ),
-            onTap: () async {},
-          ),
-          ListTile(
-            leading: const SizedBox(),
-            title: const Text(
-              "О нас",
+              "О нашей компании",
               style: TextStyle(fontSize: 16),
             ),
             onTap: () {
