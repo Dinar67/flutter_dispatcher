@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "714014044730",
+    "project_id": "flutter-dispatcher",
+    "storage_bucket": "flutter-dispatcher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714014044730:android:38d21fa2f32b92ff30fb03",
+        "android_client_info": {
+          "package_name": "com.example.flutter_dispatcher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5FTuZaR1QXoH7ov9LOIyamMD05su01yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
